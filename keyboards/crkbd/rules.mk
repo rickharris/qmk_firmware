@@ -2,7 +2,7 @@
 MCU = atmega32u4
 
 # Bootloader selection
-BOOTLOADER = caterina
+BOOTLOADER = qmk-dfu # this makes the reset keycode actually work on my corne rev1 with elite-c's
 
 # Build Options
 #   change yes to no to disable
